@@ -28,8 +28,14 @@ function addAfterKeypress(e) {
 	li.appendChild(document.createTextNode(userInput.value));
 	shoppingList.appendChild(li);
 	userInput.value = "";
-}
 
+
+// Create Delete button
+let deleteBtn = document.createElement('button');
+deleteBtn.className = 'delete';
+deleteBtn.appendChild(document.createTextNode('X'));
+li.appendChild(deleteBtn);
+}
 
 
 
