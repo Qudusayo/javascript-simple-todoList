@@ -47,6 +47,7 @@ const removeFromList = (e) => {
 	}
 }
 
+// Line through on clicking list item
 const lineThrough = (e) => {
 	if (e.target.tagName === 'li');
 	e.target.classList.toggle("done");

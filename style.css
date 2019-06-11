@@ -1,3 +1,89 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(78, 78, 78);
+    color: rgb(38, 184, 38);
+    align-items: center;
+    justify-content: center;
+    font-family: 'VT323', monospace;
+    
+}
+
+.container {
+    
+    background-color: black;
+    flex: 0 0 40%;
+    border-radius: 10px;
+    padding: 20px 0 20px 0;
+}
+
+.mainTitle {
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    padding: 0.5em;
+   text-decoration: underline;
+}
+
+.addToList {
+    text-align: center;
+    justify-content: center;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+.delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    justify-content: center;
+    color: rgb(38, 184, 38);
+    background-color: black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#enter {
+    color: rgb(38, 184, 38);
+    background-color: black;
+    padding: 5px;
+}
+
+#userInput {
+    background-color: black;
+    color:white;
+    width: 70%;
+    border-radius: 0;
+    padding: 5px;
+    border: 2px solid white;
+    
+}
+
+button {
+    border: 2px solid white;
+}
+
+::placeholder {
+    color: rgb(38, 184, 38);
+}
+
+
 .done {
 	text-decoration: line-through;
 }
+
+button:focus {outline:0;}
+input:focus {outline:0;}
